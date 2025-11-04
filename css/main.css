@@ -1,9 +1,38 @@
 body {
     margin: 0;
+    font-family: "Alfa Slab One", serif;
 }
 
 .header {
     width: 100%;
     height: 100vh;
     background-color: darksalmon;
+
+    display: flex;
+    flex-direction: column; /*align the flex-elements in a column Y-axis*/
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-title {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 130%;
+    text-align: center;
+    color: beige;
+    
+
+}
+
+.header-subtitle {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: beige;
+
+
 }
