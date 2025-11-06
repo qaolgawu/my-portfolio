@@ -6,7 +6,15 @@ body {
 .container {
     max-width: 1110px;
     background-color: plum;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.none {
+    display: none !important;
+}
+
+/* Header */
 
 .header {
     position: relative;
@@ -56,8 +64,40 @@ body {
     left: 50%;
     transform: translate(-50%, 0);
     filter: invert(88%) sepia(18%) saturate(315%) hue-rotate(16deg) brightness(96%) contrast(92%);
+}
+
+.portfolio {
+    background-color: aquamarine;
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+
+.portfolio-header {
+    font-style: oblique  ;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: black;
+    letter-spacing: 0.04em;
+}
+
+.card {
+    
+}
+
+.card-img {
 
 }
 
+.card-title {
+    margin: 0;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: black;
+
+}
 
 
