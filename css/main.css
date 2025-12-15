@@ -38,12 +38,16 @@ body {
 
 .header-link {
     display: block;
-    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
     text-decoration: none;
+    transition: opacity 0.4s ease;
 }
 
 .header-link:hover {
-    color: pink;
+    outline: 10px solid red;
+    opacity: 0.55;
 }
 
 
